@@ -1,8 +1,9 @@
 # iOS Development by heference
 
-## Directories
+## 디렉토리 구분
 
 * project
-  * sub projects
+  * 프로젝트 진행용 디렉토리
 * sample
-  * sample codes / functional modules
+  * 기능 모듈별 샘플코드
+  * 샘플 코드뭉치들
