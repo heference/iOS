@@ -15,8 +15,8 @@ enum CallRule: Int {
 }
 
 class CallKitHandler {
-    static let spamExtensionIdentifier = "com.anton.grachev.GuessWho.Spam"
-    static let yellowPagesExtensionIdentifier = "com.anton.grachev.GuessWho.Yellow-Pages"
+    static let spamExtensionIdentifier = "com.etners.EtnersBMS.Spam"
+    static let yellowPagesExtensionIdentifier = "com.etners.EtnersBMS.Yellow-Pages"
     
     static func reloadSpamExtension() {
         reloadExtension(withIdentifier: spamExtensionIdentifier)

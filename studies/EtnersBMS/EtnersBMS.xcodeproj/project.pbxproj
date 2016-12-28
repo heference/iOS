@@ -94,7 +94,7 @@
 		E069E5E71DD9ACDC009206AA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E069E5E81DD9ACDC009206AA /* SpamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpamViewController.swift; sourceTree = "<group>"; };
 		E069E5EA1DD9ACDC009206AA /* SpamPhoneNumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpamPhoneNumberCell.swift; sourceTree = "<group>"; };
-		E0D527B91DD4A48D002E71EB /* GuessWho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessWho.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D527B91DD4A48D002E71EB /* EtnersBMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtnersBMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0D527BC1DD4A48D002E71EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0D527C11DD4A48D002E71EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0D527C31DD4A48D002E71EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -191,7 +191,7 @@
 		E0D527B01DD4A48D002E71EB = {
 			isa = PBXGroup;
 			children = (
-				E0D527BB1DD4A48D002E71EB /* GuessWho */,
+				E0D527BB1DD4A48D002E71EB /* EtnersBMS */,
 				E0D527D31DD4A4A7002E71EB /* Spam */,
 				E0D527E31DD4A4B9002E71EB /* Yellow Pages */,
 				E0F518CB1DDA02BE00D6B870 /* SharedStorage */,
@@ -202,7 +202,7 @@
 		E0D527BA1DD4A48D002E71EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0D527B91DD4A48D002E71EB /* GuessWho.app */,
+				E0D527B91DD4A48D002E71EB /* EtnersBMS.app */,
 				E0D527D21DD4A4A7002E71EB /* Spam.appex */,
 				E0D527E21DD4A4B8002E71EB /* Yellow Pages.appex */,
 				E0F518CA1DDA02BE00D6B870 /* SharedStorage.framework */,
@@ -210,7 +210,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E0D527BB1DD4A48D002E71EB /* GuessWho */ = {
+		E0D527BB1DD4A48D002E71EB /* EtnersBMS */ = {
 			isa = PBXGroup;
 			children = (
 				E0F518DE1DDA08B900D6B870 /* GuessWho.entitlements */,
@@ -224,6 +224,7 @@
 				E0D527C51DD4A48D002E71EB /* LaunchScreen.storyboard */,
 				E0D527C81DD4A48D002E71EB /* Info.plist */,
 			);
+			name = EtnersBMS;
 			path = GuessWho;
 			sourceTree = "<group>";
 		};
@@ -283,9 +284,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E0D527B81DD4A48D002E71EB /* GuessWho */ = {
+		E0D527B81DD4A48D002E71EB /* EtnersBMS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E0D527CB1DD4A48D002E71EB /* Build configuration list for PBXNativeTarget "GuessWho" */;
+			buildConfigurationList = E0D527CB1DD4A48D002E71EB /* Build configuration list for PBXNativeTarget "EtnersBMS" */;
 			buildPhases = (
 				E0D527B51DD4A48D002E71EB /* Sources */,
 				E0D527B61DD4A48D002E71EB /* Frameworks */,
@@ -300,9 +301,9 @@
 				E0D527E81DD4A4B9002E71EB /* PBXTargetDependency */,
 				E0F518D01DDA02BE00D6B870 /* PBXTargetDependency */,
 			);
-			name = GuessWho;
+			name = EtnersBMS;
 			productName = GuessWho;
-			productReference = E0D527B91DD4A48D002E71EB /* GuessWho.app */;
+			productReference = E0D527B91DD4A48D002E71EB /* EtnersBMS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E0D527D11DD4A4A7002E71EB /* Spam */ = {
@@ -369,7 +370,7 @@
 				TargetAttributes = {
 					E0D527B81DD4A48D002E71EB = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 6YV635C4D3;
+						DevelopmentTeam = WW54S3M3GK;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -379,7 +380,7 @@
 					};
 					E0D527D11DD4A4A7002E71EB = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 6YV635C4D3;
+						DevelopmentTeam = WW54S3M3GK;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -389,7 +390,7 @@
 					};
 					E0D527E11DD4A4B8002E71EB = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 6YV635C4D3;
+						DevelopmentTeam = WW54S3M3GK;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -405,7 +406,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E0D527B41DD4A48D002E71EB /* Build configuration list for PBXProject "GuessWho" */;
+			buildConfigurationList = E0D527B41DD4A48D002E71EB /* Build configuration list for PBXProject "EtnersBMS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -418,7 +419,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E0D527B81DD4A48D002E71EB /* GuessWho */,
+				E0D527B81DD4A48D002E71EB /* EtnersBMS */,
 				E0D527D11DD4A4A7002E71EB /* Spam */,
 				E0D527E11DD4A4B8002E71EB /* Yellow Pages */,
 				E0F518C91DDA02BE00D6B870 /* SharedStorage */,
@@ -644,11 +645,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GuessWho/GuessWho.entitlements;
-				DEVELOPMENT_TEAM = 6YV635C4D3;
+				DEVELOPMENT_TEAM = WW54S3M3GK;
 				INFOPLIST_FILE = GuessWho/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.heference.GuessWho;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etners.EtnersBMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -660,11 +661,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = GuessWho/GuessWho.entitlements;
-				DEVELOPMENT_TEAM = 6YV635C4D3;
+				DEVELOPMENT_TEAM = WW54S3M3GK;
 				INFOPLIST_FILE = GuessWho/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.heference.GuessWho;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etners.EtnersBMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -675,11 +676,12 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_ENTITLEMENTS = Spam/Spam.entitlements;
-				DEVELOPMENT_TEAM = 6YV635C4D3;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WW54S3M3GK;
 				INFOPLIST_FILE = Spam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.heference.GuessWho.Spam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etners.EtnersBMS.Spam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -691,11 +693,12 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_ENTITLEMENTS = Spam/Spam.entitlements;
-				DEVELOPMENT_TEAM = 6YV635C4D3;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = WW54S3M3GK;
 				INFOPLIST_FILE = Spam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.heference.GuessWho.Spam;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etners.EtnersBMS.Spam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -707,11 +710,11 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_ENTITLEMENTS = "Yellow Pages/Yellow Pages.entitlements";
-				DEVELOPMENT_TEAM = 6YV635C4D3;
+				DEVELOPMENT_TEAM = WW54S3M3GK;
 				INFOPLIST_FILE = "Yellow Pages/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.heference.GuessWho.Yellow-Pages";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etners.EtnersBMS.Yellow-Pages";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -723,11 +726,11 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_ENTITLEMENTS = "Yellow Pages/Yellow Pages.entitlements";
-				DEVELOPMENT_TEAM = 6YV635C4D3;
+				DEVELOPMENT_TEAM = WW54S3M3GK;
 				INFOPLIST_FILE = "Yellow Pages/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.heference.GuessWho.Yellow-Pages";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.etners.EtnersBMS.Yellow-Pages";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -749,7 +752,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anton.grachev.GuessWho.SharedStorage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etners.EtnersBMS.SharedStorage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -775,7 +778,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.anton.grachev.GuessWho.SharedStorage;
+				PRODUCT_BUNDLE_IDENTIFIER = com.etners.EtnersBMS.SharedStorage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -788,7 +791,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E0D527B41DD4A48D002E71EB /* Build configuration list for PBXProject "GuessWho" */ = {
+		E0D527B41DD4A48D002E71EB /* Build configuration list for PBXProject "EtnersBMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0D527C91DD4A48D002E71EB /* Debug */,
@@ -797,7 +800,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E0D527CB1DD4A48D002E71EB /* Build configuration list for PBXNativeTarget "GuessWho" */ = {
+		E0D527CB1DD4A48D002E71EB /* Build configuration list for PBXNativeTarget "EtnersBMS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E0D527CC1DD4A48D002E71EB /* Debug */,

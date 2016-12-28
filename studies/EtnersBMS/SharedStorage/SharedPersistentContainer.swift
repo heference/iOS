@@ -9,7 +9,7 @@
 import CoreData
 
 struct CoreDataServiceConsts {
-    static let applicationGroupIdentifier = "group.com.agrachev.guesswho.container"
+    static let applicationGroupIdentifier = "group.com.etners.etnersbms.container"
 }
 
 final class SharedPersistentContainer: NSPersistentContainer {
