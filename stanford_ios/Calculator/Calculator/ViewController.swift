@@ -29,10 +29,6 @@ class ViewController: UIViewController {
         userIsInTheMiddleOfTyping = true
     }
     
-    //Code [A] 리펙토링
-    //Property
-    //Display Value를 Get 할때는 Double 형태로
-    //Display Value를 Set 할때는 String 형태로
     private var displayValue: Double {
         get {
             //Optional Value인 이유는 Double -> String 연산이 변환이 안될 수도 있기 때문이다 ex) Hello가 들어가는 경우 Crash가 발생하지만 여기서는 입력된 String이 숫자형태라고 확신이 되는 경우기 때문에 Optional을 Set 한다
@@ -48,10 +44,7 @@ class ViewController: UIViewController {
     
     private var brain = CalculatorBrain()
     @IBAction private func performOperation(_ sender: UIButton) {
-        //Code [C]
-//        userIsInTheMiddleOfTyping = false
-        
-        //Code [C]
+
         if userIsInTheMiddleOfTyping {
             brain.setOperand(operand: displayValue)
             userIsInTheMiddleOfTyping = false
@@ -59,18 +52,7 @@ class ViewController: UIViewController {
         
         //이 코드들은 계산기의 실제 기능이 구현된 것이기 때문에 Controller 에 구현될 로직이 아니다. 계산기 자체의 정체성이 담겨있기 때문에 Model 객체로 옮겨야 한다
         if let mathematicalSymbol = sender.currentTitle {
-            
-            //Code [B] 리펙토링 : MVC 패턴 적용
             brain.performOperation(symbol: mathematicalSymbol)
-            
-            //Code [B]
-//            if mathematicalSymbol == "π" {
-////                Code [A]
-////                display.text = String(M_PI) //M_PI
-//                displayValue = M_PI
-//            } else if mathematicalSymbol == "√" {
-//                displayValue = sqrt(displayValue)
-//            }
         }
         
         displayValue = brain.result
